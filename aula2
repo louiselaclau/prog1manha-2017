@@ -1,0 +1,46 @@
+(operaçoes matematicas)
+#include <stdio.h>
+/*
+programa para subtrair 2 numeros
+*/
+
+int main()
+{
+  int x;
+  int y;
+  int soma;
+  int subtracao;
+  int multiplicacao;
+  float divisao;
+  x=10;
+  y=5;
+  soma=x+y;
+  subtracao=x-y;
+  multiplicacao=x*y;
+  //divisao=x/y;
+  
+  printf("\nResultado da soma=%d\n",soma);
+  printf("\nResultado da subtracao=%d\n",subtracao);
+  printf("\nResultado da multiplicacao=%d\n",multiplicacao);
+  //printf("\nResultado da divisao=%f\n",divisao);
+
+  return 0;
+  }
+
+(para o programa solicitar os numeros)
+
+#include <stdio.h>
+int main()
+{
+int x;
+int y;
+int multiplicacao;
+  printf("\nEntre com valor de x:");
+  scanf("%d",&x);
+  printf("\nEntre com valor de y:");
+scanf("%d",&y);
+multiplicacao=x*y;
+printf("\nResultado=%d\n",multiplicacao);
+return 0;
+}
+
